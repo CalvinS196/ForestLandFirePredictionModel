@@ -1,0 +1,4 @@
+model,threshold,roc_auc,average_precision,precision_class_1,recall_class_1,f1_class_1,parameters
+random_forest,0.49403405013044194,0.6150288793649686,0.13542682640703638,0.15544635544635543,0.2993690851735016,0.20463611859838274,"{'n_estimators': 150, 'min_samples_leaf': 5, 'class_weight': 'balanced'}"
+xgboost,0.7866094708442688,0.679155149933702,0.196210878976585,0.21332404828226556,0.28990536277602524,0.24578764375501472,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05, 'min_child_weight': 5, 'subsample': 0.8, 'colsample_bytree': 0.8, 'scale_pos_weight': 28.67251835301628}"
+lstm,0.8686009645462036,0.7200093190992554,0.19049217932262652,0.21642969984202212,0.36687069625095636,0.272249822569198,"{'sequence_length': 7, 'units': 32, 'dropout': 0.3, 'learning_rate': 0.0005, 'epochs_max': 20, 'early_stopping_patience': 4, 'class_weight': 'balanced'}"

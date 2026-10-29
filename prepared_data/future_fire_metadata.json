@@ -1,0 +1,21 @@
+{
+  "target": "any MODIS detection in the same grid cell on the next day",
+  "negative_label_warning": "zero detection is a proxy negative because source data lacks observation coverage",
+  "grid_size_degrees": 0.5,
+  "sequence_length_days": 7,
+  "split": "70/15/15 chronological by target date",
+  "features": [
+    "fire_count",
+    "frp_sum",
+    "frp_max",
+    "brightness_mean",
+    "bright_t31_mean",
+    "confidence_max",
+    "month_sin",
+    "month_cos",
+    "day_of_year_sin",
+    "day_of_year_cos",
+    "latitude",
+    "longitude"
+  ]
+}
